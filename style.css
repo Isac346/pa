@@ -1,8 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
 :root {
-    --cor-destaque: #ED145B;
-    --cor-gradiente-azul: linear-gradient(113deg, #000 0%, #1E2021 44.96%, #1E2022 100%);
+    --cor-destaque: #4A90E2; /* Cor de destaque alterada para azul claro */
+    --cor-gradiente-azul: linear-gradient(113deg, #A8D0E6, #D0EAFB, #EAF4FB); /* Gradiente de fundo mais suave */
 }
 
 * {
@@ -20,7 +18,6 @@ body {
     height: 100vh;
     flex-direction: column;
 }
-
 
 .container {
     display: flex;
